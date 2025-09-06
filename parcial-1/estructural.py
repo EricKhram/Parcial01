@@ -7,5 +7,14 @@ def suma_lista(lista):
         resultado = resultado + i
     if resultado > 100:
         return 'mayor'
-    else
-        return 'menor'
+    else:
+        return 'menor' 
+
+def main():
+    ventas = [10,30,20,5]
+    resultado = suma_lista(ventas)
+    print(f"la suma de las ventas {ventas} es {resultado} que 100")
+
+if __name__ == "__main__":
+    main()
+

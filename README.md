@@ -1,4 +1,25 @@
-# Parcial – Paradigmas de Programación
+# Parcial 1 – Paradigmas de Programación - Erick Lopez
+
+## Errores encontrados en el primer ejercicio (Estructurado)
+
+### primero
+En el else de la estructura condicional faltaba un : que indica que va a ejectar el mismo
+
+### segundo  
+en el ejercio se pide que este debe sumar ventas o reportes pero como tal no le estamos pasando ninguna lista
+por lo que procederemos en el main a crearla 
+asi como tambien a llamar a la funcion suma_lista y ingresandole la lista de ventas que luego con el print nos muestre si es mayor o menor que 100
+
+```python
+def main():
+    ventas = [10,30,20,5]
+    resultado = suma_lista(ventas)
+    print(f"la suma de las ventas {ventas} es {resultado} que 100")
+```
+
+
+### tercero
+por ultimo no se estaba llamando a la funcion que haciamos por lo cual no podiamos comprobar el funcionamiento del programa
 
 ## Instrucciones Generales
 
@@ -9,33 +30,3 @@
 - No utilice herramientas automáticas de IA.
 - Tiempo máximo: 2 horas.
 - Valor total: 5.0 puntos.
-
-## Detalles a tener en cuenta
-
-- Lea cuidadosamente cada enunciado y código.
-- Analice la lógica antes de modificar el código.
-- Documente sus correcciones y explique su razonamiento.
-- Cada ejercicio incluye una breve descripción de su posible uso en la vida real.
-
-## Ejercicios por carpeta
-
-- **estructural.py**: Ejercicio de programación estructurada.
-- **oop.py**: Ejercicio de programación orientada a objetos.
-
----
-
-# Descripción de los ejercicios y aplicaciones reales
-
-## Estructural
-
-- **Ejemplo**: Procesar una lista de números para obtener un resultado (suma, máximo, pares, etc).
-- **Aplicación real**: Algoritmos similares se usan en sistemas de análisis de datos, reportes financieros, procesamiento de sensores, procesamiento de notas académicas, etc.
-
-## Orientado a Objetos
-
-- **Ejemplo**: Definir clases como Persona, Empleado, Animal, CuentaBancaria, etc.
-- **Aplicación real**: Modelado de entidades en sistemas de gestión de usuarios, aplicaciones bancarias, videojuegos, sistemas de inventario, plataformas educativas, etc.
-
----
-
-¡Éxito en el examen!
