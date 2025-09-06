@@ -5,7 +5,7 @@
 ### Primer error
 En el else de la estructura condicional faltaba un : que indica que va a ejectar el mismo
 
-### Segundo error  
+### Complemento 1
 en el ejercio se pide que este debe sumar ventas o reportes pero como tal no le estamos pasando ninguna lista
 por lo que procederemos en el main a crearla 
 asi como tambien a llamar a la funcion suma_lista y ingresandole la lista de ventas que creamos para que luego el print nos muestre si es mayor o menor que 100
@@ -18,7 +18,7 @@ def main():
 ```
 
 
-### Tercer Error
+### Complemento 2
 por ultimo no se estaba llamando a la funcion que haciamos por lo cual no podiamos comprobar el funcionamiento del programa por lo cual lo agregamos
 aunque igual el programa lo verificamos atravez del debugging
 
@@ -44,7 +44,7 @@ class Empleado(Persona):
 
 para que asi lo herede correctamente
 
-### Segundo error o complemento
+### Complemento 1
 como complemento para el ejercicio crearia un main donde le pase los 3 datos de un empleado para verificar que si se este heredando correctamente los atributos y las funciones de la clase persona
 
 ```python
